@@ -1,0 +1,112 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+header{
+    margin-top: 100px;
+    height: 300px;
+    width: 1343px;
+    background-image: url(/assents/imagenes/design1_image2.jpg);
+    background-size: 1343px 300px;
+    background-repeat: no-repeat;
+}
+
+header>h1{
+    width: 1343px;
+    position: absolute;
+    top: 3px;
+    font-size: 70px;
+    
+}
+
+header>h2{
+    
+    position: absolute;
+    width: 1343px;
+    top: 400px;
+    left: 0px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.img-logo{
+    position: absolute;
+    height: 250px;
+    right: 250px;
+    top: 460px;
+    left: 30px;
+    z-index: 1;
+    margin-right: 820px;
+}
+
+nav{
+    width: 1330px; 
+    position: absolute;
+    text-align: end;
+    border-color: black;
+    margin-top: -318px;
+    margin-right: 100px;
+    z-index: 1;
+    
+}
+
+nav>a{
+    width: 200px;
+    color: white;
+    background-color: #0c70e1;
+    border: 10px;
+    border-color: black;
+    text-decoration: none;
+    filter: drop-shadow(7px 5px #332f2c);
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+a[href="#"]:visited{
+    background-color: #4FC85D;
+}
+
+.img-hockey{
+    margin-left: 1000px;
+    margin-top: 80px;
+}
+
+div>article{
+    margin-top: 10px;
+    margin-left: 300px;
+    width: 600px;
+    right: 1200px;
+    display: block;
+    font-size: 20px;
+}
+
+.text1{
+    margin-top: -300px;
+}
+
+.textabout_1{
+    margin-top: -300px;
+}
+
+.contactos{
+    margin-top: -300px;
+    margin-left: 300px;
+    width: 600px;
+    right: 1200px;
+    display: block;
+    font-size: 20px;
+}
+
+article>p{
+    text-indent: 40px;
+}

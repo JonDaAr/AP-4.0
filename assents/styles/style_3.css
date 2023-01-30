@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.img-logo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 600px;
+    z-index: 1;
+    filter: drop-shadow(0px 5px #332f2c);
+}
+
+header{
+    width: 1300px;
+    height: 400px;
+    background-image: url(/assents/imagenes/design1_image1.jpg);
+    background-size: 1300px 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+header>h1{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    color: white;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+}
+header>h2{
+    text-align: center;
+    margin-top: 366px;
+    font-size: 30px;
+}
+
+nav{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: red;
+    border: 2;
+    position: absolute;
+    width: 1300px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+} 
+
+nav>a{
+    color: white;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+a[href="#"]:visited{
+    color: yellow;
+}
+
+.img-hockey{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+div>article{
+    margin-top: 10px;
+    margin-left: 350px;
+    width: 600px;
+    right: 1200px;
+    display: block;
+    font-size: 20px;
+}
+
+.text1{
+    margin-top: -300px;
+}
+
+.textabout_1{
+    margin-top: -300px;
+}
+
+.contactos{
+    margin-top: -300px;
+    margin-left: 300px;
+    width: 600px;
+    right: 1200px;
+    display: block;
+    font-size: 20px;
+}
+
+article>p{
+    text-indent: 40px;
+}
+div>p{
+    margin-left: 60px;
+}
