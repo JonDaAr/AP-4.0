@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
@@ -30,13 +30,12 @@ header>h1{
     border-style: solid;
     color: white;
     height: 45px;
-    padding-top: 10px;
     padding-bottom: 10px;
     background-color: red;
 }
 header>h2{
     text-align: center;
-    margin-top: 366px;
+    margin-top: 380px;
     font-size: 30px;
 }
 
